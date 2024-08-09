@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Intent</string>
+    <string name="default_web_client_id">321731104098-565rdh16fqqlcbq59njo7vo8e8n5nn2b.apps.googleusercontent.com</string>
+
+    <string name="facebook_app_id">923866719340169</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_text_1">Selected</string>
+    <string name="tab_text_2">Indoors</string>
+    <string name="tab_text_3">Outdoors</string>
+    <string name="tab_text_4">Academic</string>
+    <string name="contacts">Contacts</string>
+    <string name="requests">Requests</string>
+    <string name="search">Search</string>
+    <string name="home">Home</string>
+
+
+</resources>

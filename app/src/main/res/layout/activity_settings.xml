@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SettingsActivity">
+
+    <include
+        android:id="@+id/settings_toolbar"
+        layout="@layout/app_bar_layout"></include>
+
+
+    <TextView
+        android:id="@+id/settings_header"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fontFamily="@font/regular"
+        android:gravity="center"
+        android:text="Your Profile"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.0553"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102"
+        app:layout_constraintWidth_percent="0.288" />
+
+    <EditText
+        android:id="@+id/settings_displayname"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/inputs"
+        android:fontFamily="@font/regular"
+        android:gravity="center_vertical"
+        android:hint="Display Name"
+        android:paddingStart="30dp"
+        android:textColor="@color/input_text"
+        android:textColorHint="@color/input_text"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.09375"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4"
+        app:layout_constraintWidth_percent="0.8194" />
+
+    <Spinner
+        android:id="@+id/settings_spinner_country_name"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/inputs"
+        android:gravity="center_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.09375"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.517"
+        app:layout_constraintWidth_percent="0.8194"
+        android:outlineAmbientShadowColor="@color/Black"/>
+
+    <EditText
+        android:id="@+id/settings_country"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/inputs"
+        android:fontFamily="@font/regular"
+        android:gravity="center_vertical"
+        android:hint="Country"
+        android:inputType="textPassword"
+        android:paddingStart="30dp"
+        android:textColor="@color/input_text"
+        android:textColorHint="@color/input_text"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.09375"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49"
+        app:layout_constraintWidth_percent="0.8194" />
+
+    <EditText
+        android:id="@+id/settings_status"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/inputs"
+        android:fontFamily="@font/regular"
+        android:gravity="center_vertical"
+        android:hint="Status"
+        android:inputType="textPassword"
+        android:paddingStart="30dp"
+        android:textColor="@color/input_text"
+        android:textColorHint="@color/input_text"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.09375"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.656"
+        app:layout_constraintWidth_percent="0.8194" />
+
+    <Button
+        android:id="@+id/settings_update_button"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/regular"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Update"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.788"
+        app:layout_constraintWidth_percent="0.81944" />
+
+    <Button
+        android:id="@+id/settings_edit_interests_button"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/regular"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Edit My Interests"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.913"
+        app:layout_constraintWidth_percent="0.81944" />
+
+    <ImageView
+        android:id="@+id/settings_profile_photo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/select_image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.157" />
+
+    <Button
+        android:id="@+id/settings_change_photo_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Change Photo"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/settings_profile_photo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

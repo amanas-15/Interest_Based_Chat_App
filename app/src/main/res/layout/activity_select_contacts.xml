@@ -1,0 +1,50 @@
+<!-- activity_create_group.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp"
+    tools:context=".SelectContactsActivity">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="600dp"
+        android:layout_height="620dp"
+        android:layout_above="@id/button_done"
+        android:layout_below="@id/button_create_group">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+
+            android:src="@drawable/groupmembers" />
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/edit_text_group_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Enter group name"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+
+    <Button
+        android:id="@+id/button_create_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text_group_name"
+        android:text="Create Group" />
+
+    <Button
+        android:id="@+id/button_done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Done" />
+
+</RelativeLayout>
+
