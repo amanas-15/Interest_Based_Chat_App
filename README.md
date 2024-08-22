@@ -19,7 +19,7 @@
 
 | **Technology** | **Logo** | **Details** |
 |----------------|----------|-------------|
-| **Front-End**  | (https://github.com/user-attachments/assets/76ee3a3f-e1ba-4856-9eb0-509263d06b25) |**XML**: Used for designing the user interface, ensuring a responsive and intuitive experience. |
+| **Front-End**  | (!![image](https://github.com/user-attachments/assets/fa030dea-95dc-4518-a8f6-1b5e95243b97)|**XML**: Used for designing the user interface, ensuring a responsive and intuitive experience. |
 | **Back-End**   | ![Java Logo](https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg) | **Java**: The backbone of our app, handling all the logic and server-side operations. |
 | **Database**   | ![Firebase Logo](https://upload.wikimedia.org/wikipedia/commons/3/37/Firebase_Logo.svg) | **Firebase**: Provides real-time data synchronization, ensuring that users experience instant updates and reliable data storage. |
 
